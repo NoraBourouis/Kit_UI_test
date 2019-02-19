@@ -1,0 +1,348 @@
+
+/************************/
+/*      COULEURS        */
+/************************/
+
+.primary {
+  background-color: #ECCCB1;
+}
+
+.text-primary {
+  color: #000000;	
+}
+.secondary {
+  background-color: #6B5475;
+}
+.text-primary {
+  color: #FFFFFF;	
+}
+.dark {
+  background-color: #434A54;
+
+}
+.medium-light {
+  background-color: #AAB2BD;
+
+}
+.light {
+  background-color: #E6E9ED;
+}
+
+
+/************************/
+/*     Typographie       */
+/************************/
+
+.headings, h1, h2, h3{
+  font-family: 'Nunito', sans-serif;
+}
+.txt, p {
+  font-family: 'Lato', sans-serif!important;
+  font-size: 18px;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif !important;
+  font-size:32px;
+
+}
+
+h3{
+  font-size:30px;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+
+ul {
+
+}
+
+
+/************************/
+/*       BUTTONS        */
+/************************/
+
+.btn-lg {
+  
+}
+.btn-sm{
+  
+}
+.btn-outline{
+  
+}
+
+.btn-primary{
+  background-color:#6B5475 !important;
+  border-color: #6B5475;
+}
+
+.btn-secondary{
+  background-color:#ffc107 !important;
+  border-color: #ffc107 ;
+  margin: auto;
+  color: black;
+}
+
+/************************/
+/*       ALERT        */
+/************************/
+
+
+.info {
+  background-color: #629FA0;
+}
+.warning{
+  background-color:#FFCE54;
+}
+.success{
+  background-color:#A1D5A7;
+}
+.danger{
+  background-color: #C1441D;
+}
+
+/************************/
+/*         NAVBAR       */
+/************************/
+
+.nav-text a {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-decoration: none;	
+}
+
+.navbar-brand{
+font-family: 'Nunito', sans-serif !important;
+color: #e89956 !important;
+font-size: 22px  !important;
+}
+
+
+/************************/
+/*         FOOTER       */
+/************************/
+#footer{ 
+    display: flex;
+    padding: 5px;
+    background-color: #6B5475;
+    color: #fff;
+    font-size:16px;
+    font-family: 'Lato', sans-serif!important;
+}
+
+/************************/
+/*         Form         */
+/************************/
+.form-signin{
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+
+}    
+
+/*** checked-box ***/
+
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+  border-color: #6B5475 !important;
+  background-color:#6B5475 !important;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 0.25rem;
+}
+
+
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  background-color: #6b547587 !important;
+}
+
+.custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
+  background-color: #6b547587 !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.custom-radio .custom-control-label::before {
+  border-radius: 50%;
+}
+
+/************************/
+/*        Banner        */
+/************************/
+  .banner-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/event.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom:200px;
+  }
+  .banner-heading h2 {
+    color:#fff;
+    font-size: 42px;
+    font-weight: 600;
+    
+  
+    }
+  .banner-heading P {
+    color:#fff;
+    padding-bottom:20px;
+    font-size: 19px;
+    font-weight: 400;
+    }
+   
+  
+  /* BANNER 2 */
+  .banner-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)), url("images/event2.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    padding-top: 100px;
+    padding-bottom:100px;
+  }
+
+/************************/
+/*        CARDS       */
+/************************/
+
+.card-btn{
+    background-color:#ffc107 !important;
+    border-color: #ffc107 ;
+  }
+
+.logo-card{
+  width: 10%;
+}
+
+th{
+  background-color:#6B5475;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size:18px;
+}
+
+/****************************/
+/*         COMMENTS         */
+/***************************/
+
+.comment-text-area {
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1rem;
+  color: #555f77;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ced2db;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #ced2db;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #ced2db;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #ced2db;
+}
+
+p {
+  line-height: 1.3125rem;
+}
+
+.comments {
+  margin: 2.5rem auto 0;
+  max-width: 60.75rem;
+  padding: 0 1.25rem;
+}
+
+.comment-wrap {
+  margin-bottom: 1.25rem;
+  display: table;
+  width: 100%;
+  min-height: 5.3125rem;
+}
+
+.photo {
+  padding-top: 0.625rem;
+  display: table-cell;
+  width: 3.5rem;
+}
+.photo .avatar {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.comment-block {
+  padding: 1rem;
+  background-color: #fff;
+  display: table-cell;
+  vertical-align: top;
+  border-radius: 0.1875rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.comment-block textarea {
+  width: 100%;
+  resize: none;
+}
+
+.btn-comment{
+  float: right;
+}
+.btn-outline-secondary{
+  color: #abb4c4!important;
+  border-color: #6c757d45 !important;
+}
+
+.comment-text {
+  margin-bottom: 1rem;
+}
+
+.bottom-comment {
+  color: #acb4c2;
+  font-size: 0.875rem;
+}
+.comment-user{
+  color: purple;
+}
+.comment-date {
+  float: left;
+}
+
+.comment-actions {
+  float: right;
+}
+.comment-actions li {
+  display: inline;
+  margin: -2px;
+  cursor: pointer;
+}
+.comment-actions li.complain {
+  padding-right: 0.75rem;
+  border-right: 1px solid #e1e5eb;
+}
+.comment-actions li.reply {
+  padding-left: 0.75rem;
+  padding-right: 0.125rem;
+}
+.comment-actions li:hover {
+  color: #0095ff;
+}
