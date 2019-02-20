@@ -360,3 +360,55 @@ p {
   text-decoration: none;
   color: #ffc107
 }
+
+.info-importantes{
+  padding-bottom: 25%;
+  padding-top: 40%;
+}
+.info-prix{
+float: left;
+bottom: 0px;
+position: absolute;
+}
+
+.logo-emoji{
+  width: 8%;
+}
+
+.logo-emoji:hover{
+  border-radius: 50%;
+  background-color: #FFF;
+  border-color: #FFF;
+  background-clip: unset;
+  border:2px;
+  padding: 9px 8px 0;
+  fill: #4B4D63;
+  color: #4B4D63;
+}
+
+.no-padding{
+  padding: 0;
+  padding-bottom:1px;
+}
+.div-view{
+  padding:15px;
+  letter-spacing: .5px;
+}
+
+.logo-rs{
+  width: 5%;
+  padding-right:3px;
+}
+.views-details{
+  background-color: #f8f9fa;
+}
+.event-content{
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-bottom: 7%;
+}
+
+.rs{
+  display: flex;
+  align-items: baseline;
+}
